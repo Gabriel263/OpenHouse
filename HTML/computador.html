@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- chat:
+
+        -->
+        <script defer src="../JS/firebase_ini.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+        <script defer src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+        <link rel="stylesheet" href="../CSS/home.css">
+        <link rel="stylesheet" href="../CSS/fundo_home.css">
+        <link rel="stylesheet" href="../CSS/banner.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script defer src="../JS/animation_home.js"></script> 
+        <script src="../JS/navegacao.js"></script>
+        <title>Computador</title>
+    </head>
+    <div >
+        <body>                
+                <div id="stars"></div>
+                <div id="stars2"></div>   
+                <div class="topnav" id="myTopnav">
+                    <a href="http://localhost:8080/HTML/home.html" class="active">Lançamentos</a>
+                    <a href="http://localhost:8080/HTML/promocoes.html">Promoções</a>
+                    <a href="http://localhost:8080/HTML/mobile.html">Mobile</a>
+                    <a href="http://localhost:8080/HTML/console.html">Console</a>
+                    <a>Computador</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    </div>
+            <div  class="main" id="home">
+                <a href="http://localhost:8080/HTML/revolver.html">
+                    <div class="banner" id="revolver"><!--Red dead revolver-->
+                        <h4>Red Dead Revolver (2004)</h4>
+                        <img src="../IMG/Revolver/_1885643b.jpg">
+                        <p>O jogo conta a história de um caçador de recompensas, Red Harlow busca descobrir o mistério por qual a razão seus pais foram mortos...          <a id="link" href="https://en.wikipedia.org/wiki/Red_Dead_Revolver">Saiba mais...</a></p>
+                        <div class="logos">
+                            <ul>
+                                <li><img src="../IMG/playstation.png" alt="Playstation"></li>
+                                <li><img src="../IMG/xbox.png" alt="Xbox"></li>
+                            </ul>             
+                        </div>
+                        <div class="preco">
+                            <label class="valor" id="preco_rev" >R$ 22.35</label>
+                        </div>
+                    </div>
+                </a>     
+                <!--=====================================================================================-->
+                <a href="http://localhost:8080/HTML/Redemption1.html">
+                    <div class="banner"><!--Red dead redemption-->
+                        <h4>Red dead Redemption (2010)</h4>
+                        <img src="../IMG/Redemption1/Arthur.jpg">
+                        <p>John Marston, teve sua esposa e filho sequestrados pelo governo, 
+                            e deve trabalhar de pistoleiro para eles, levando seus antigos parceiros de gangue a justiça...
+                                      <a id="link" href="https://en.wikipedia.org/wiki/Red_Dead_Revolver">Saiba mais...</a>
+                        </p>
+                        <div class="logos">
+                            <ul>
+                                <li><img src="../IMG/playstation.png" alt="Playstation"></li>
+                                <li><img src="../IMG/xbox.png" alt="Xbox"></li>
+                            </ul>                                                
+                        </div>
+                        <div class="preco">
+                            <label id="preco_red" >R$ 133.90</label>
+                        </div>
+                    </div>
+                </a>
+        </body>
+    </div>
+</html>

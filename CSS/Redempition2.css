@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(https://www.teahub.io/photos/full/258-2582240_red-dead-redemption-2-hd-4k-wallpapers-red.jpg);
+    background-size: 100%;
+}
+li{
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+.image{
+    width: 100%;
+    text-align: center;
+    height: auto;    
+}
+.image img {
+    width: 810px;
+    filter: contrast(110%);
+    filter: saturate(150%);
+}
+.main{
+    justify-content: center;
+    background-color: black;
+    width: 850px;
+    height: auto;
+    border-radius: 10px;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.main p{
+    font-family: 'Courier New', Courier, monospace;
+   
+    margin: 10px;
+    text-align: justify;
+    color: white;
+}
+#video{
+    width: 100%;
+    height:auto;
+    background-color: darkcyan;
+}
+
+.main > h1{
+    color: red;
+    text-align: center;
+    margin: auto;
+    top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+#song{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    height: 130px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+}
+#song li{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+#song audio{
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    left: 15%;
+}

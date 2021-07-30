@@ -1,0 +1,89 @@
+/*
+.banner
+    h4
+    img
+    p
+    ul li img
+*/
+.banner{
+    margin: 20px;
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    background-color: rgb(32,32,32);
+    padding: 10px;
+    position: relative;
+    overflow-y: inherit;
+}
+.banner h4{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;   
+}
+.banner p{
+    color: rgb(161, 241, 124);
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+
+}
+.banner img{
+    width: 400px;
+    height: auto;
+
+}
+.banner ul{
+    list-style: none;
+}
+.logos{
+    width: 20%;
+    height: 10%;
+    position: relative;
+    margin-top: 10px;
+}
+
+#link{
+    text-decoration: none; 
+    color: cyan;
+    text-decoration: underline;
+}
+.banner ul li img {
+    width: 30px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    
+    border-radius: 0px;
+}
+#red{
+    width: 30%;
+    height: 10%;
+    position: relative;
+    margin: 10px;
+}
+.banner ul li {
+    margin-left: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.preco{
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color:  rgb(32,32,32);
+    right: 0;
+    float:right;
+    text-align:right;
+}
+.preco label{
+    color: lime;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 20px;
+    font-weight: bold;
+}
