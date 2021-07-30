@@ -1,0 +1,31 @@
+
+body{
+    background-color: rgb(32,32,32);
+}
+.list_console{
+    width: 100%;
+    height: auto;
+
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.list_console ul li {
+    list-style: none;
+}
+.cat1 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.cat1 ul li {
+    margin: 40px;
+}
+.b{
+    margin-left: 10px;
+}
+.t{
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}

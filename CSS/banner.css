@@ -1,10 +1,4 @@
-/*
-.banner
-    h4
-    img
-    p
-    ul li img
-*/
+
 .banner{
     margin: 20px;
     width: 400px;
@@ -40,8 +34,8 @@
 .logos{
     width: 20%;
     height: 10%;
-    position: relative;
-    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
 }
 
 #link{
@@ -60,8 +54,8 @@
 #red{
     width: 30%;
     height: 10%;
-    position: relative;
-    margin: 10px;
+    position: absolute;
+    bottom: 0;
 }
 .banner ul li {
     margin-left: 0px;
@@ -80,10 +74,18 @@ a{
     right: 0;
     float:right;
     text-align:right;
+    
 }
 .preco label{
     color: lime;
     font-family:'Courier New', Courier, monospace; 
     font-size: 20px;
     font-weight: bold;
+    width: auto;
+    margin-left: 10px;
+    
+}
+#desc{
+    color: red;
+    text-decoration:line-through;
 }
